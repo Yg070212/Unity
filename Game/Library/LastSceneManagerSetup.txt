@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Class7th (User Interface)/Scenes/Class7th.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
