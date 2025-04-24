@@ -347,6 +347,7 @@
 "Assets/Class7th (User Interface)/Scripts/ButtonManager.cs"
 "Assets/Class7th (User Interface)/Scripts/Selectable.cs"
 "Assets/Class8th (Movement)/Scripts/Movement.cs"
+"Assets/Class9th (Collision)/Scripts/Senser.cs"
 -langversion:9.0
 
 /deterministic
