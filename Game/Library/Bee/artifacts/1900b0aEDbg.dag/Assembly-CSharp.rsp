@@ -340,6 +340,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/amusedART/StoneMonster/Script/Animation_Test.cs"
+"Assets/Clas10th (Instantiate & Destroy)/Scripts/WeaponManager.cs"
 "Assets/Class2th (Script)/Scripts/Creature.cs"
 "Assets/Class2th (Script)/Scripts/Stat.cs"
 "Assets/Class3th (Life Cycle)/Scripts/State.cs"
@@ -347,6 +348,7 @@
 "Assets/Class7th (User Interface)/Scripts/ButtonManager.cs"
 "Assets/Class7th (User Interface)/Scripts/Selectable.cs"
 "Assets/Class8th (Movement)/Scripts/Movement.cs"
+"Assets/Class9th (Collision)/Scripts/Battery.cs"
 "Assets/Class9th (Collision)/Scripts/Senser.cs"
 -langversion:9.0
 

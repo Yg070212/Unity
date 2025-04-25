@@ -19,6 +19,12 @@ public class Senser : MonoBehaviour
     {
         // OnTriggerStay : 물리적이지 않은 충돌을 하고 있을 때
         // 호출되는 이벤트 함수입니다.
+        Battery battery = other.GetComponent<Battery>();
+
+        if (battery != null)
+        {
+            battery.Increase();
+        }
 
         Debug.Log("OnTriggerStay");
     }
@@ -30,4 +36,6 @@ public class Senser : MonoBehaviour
 
         Debug.Log("OnTriggerExit");
     }
+
+    
 }
