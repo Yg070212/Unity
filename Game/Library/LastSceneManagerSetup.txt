@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Clas10th (Instantiate & Destroy)/Scenes/Class 10th.unity
+- path: Assets/Class13th (Physics)/Scenes/Class 13th.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
