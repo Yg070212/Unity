@@ -394,6 +394,7 @@ GameObject:
   - component: {fileID: 5853941864785693188}
   - component: {fileID: 5930276528123790954}
   - component: {fileID: 5930276528123790953}
+  - component: {fileID: 5930276528123790955}
   m_Layer: 0
   m_Name: Soccer Ball
   m_TagString: Untagged
@@ -422,6 +423,7 @@ GameObject:
   - component: {fileID: 5280223246143814442}
   - component: {fileID: 6047112732828734129}
   - component: {fileID: 6047112732828734128}
+  - component: {fileID: 6047112732828734130}
   m_Layer: 0
   m_Name: Basket Ball
   m_TagString: Untagged
@@ -465,6 +467,7 @@ GameObject:
   - component: {fileID: 6347984748176908672}
   - component: {fileID: 6347984748176908674}
   - component: {fileID: 6347984748176908673}
+  - component: {fileID: 6347984748176908675}
   m_Layer: 0
   m_Name: Volley Ball
   m_TagString: Untagged
@@ -612,6 +615,21 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.09840783
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5930276528123790955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826918908971819775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95aef320531201743959556200171b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
+  direction: {x: 0, y: 5, z: 0}
+  rigidbody: {fileID: 0}
 --- !u!4 &6047112732828734127
 Transform:
   m_ObjectHideFlags: 0
@@ -675,6 +693,21 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.12000003
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6047112732828734130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437884596003208081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95aef320531201743959556200171b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
+  direction: {x: 0, y: 5, z: 0}
+  rigidbody: {fileID: 0}
 --- !u!23 &6347984748176908672
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -765,6 +798,21 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.099999994
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6347984748176908675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2806486965259311347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95aef320531201743959556200171b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
+  direction: {x: 0, y: 5, z: 0}
+  rigidbody: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
